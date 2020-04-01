@@ -7,7 +7,7 @@ vagrantの中にデスクトップubuntu+dokcer-composeが入っています。�
 $ git clone https://github.com/KatsutoshiOtogawa/vagrant-inside_docker-compose_code.git
 `
 
-vagrantの中でdocker-compose、codeを使うため、
+vagrantの中でdocker-composeを使うため、
 vb.memoryはデフォルトで8Gに設定しています。
 大きすぎるならホスト側のpcのメモリに合わせて修正してください。
 
