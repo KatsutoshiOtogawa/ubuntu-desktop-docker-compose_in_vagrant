@@ -38,7 +38,13 @@ $ vagrant up
 $ sudo dpkg-reconfigure keyboard-configuration
 `
 
-### 時刻の設定
+### タイムゾーンの設定
+デフォルトではUTCに設定されています。
+
+`
+# ex) Asia/Tokyoにタイムゾーンを設定する場合
+$ sudo timedatectl set-timezone Asia/Tokyo
+`
 
 ## Referrence
 
