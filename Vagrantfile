@@ -64,15 +64,13 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-    apt-get update && apt-get upgrade && apt-get -y install ubuntu-desktop code
-
-    # キーボードのレイアウトの変更
-    dpkg-reconfigure keyboard-configuration
+    apt-get update && apt-get -y upgrade && apt-get -y install ubuntu-desktop
 
     # 自分の開発に必要なものだけコメントアウトしてください。
 
     # Linuxbrew
     # apt-get install build-essential curl file git
+
     # ゴミ処理
     apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/*
     # デスクトップ環境反映のため、サーバーを一度シャットダウン
