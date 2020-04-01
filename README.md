@@ -1,5 +1,5 @@
 # vagrant-inside_docker-compose_code
-vagrantの中にdokcer-compose、code(visual studio codeのオープンソース版)が入っています。簡単に作成、捨てられる開発環境としてどうぞ。
+vagrantの中にデスクトップubuntu+dokcer-composeが入っています。簡単に作成、捨てられる開発環境としてどうぞ。
 ## 使い方
 前提としてvirtualbox,vagrantはインストール済みとします。
 
