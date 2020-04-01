@@ -33,6 +33,10 @@ $ vagrant up
 ## その他の設定
 デスクトップ環境作成後は、ターミナルから下記のコマンドを実行することにより、設定の反映を行ってください。
 ### キーボードの設定
+下記のコマンドを押すとキーボードの設定になります。
+macの場合はキーボードレイアウトは
+Apple Alminium (JIS)
+になります。
 
 `
 $ sudo dpkg-reconfigure keyboard-configuration
@@ -40,9 +44,10 @@ $ sudo dpkg-reconfigure keyboard-configuration
 
 ### タイムゾーンの設定
 デフォルトではUTCに設定されています。
+Asia/Tokyoにタイムゾーンを設定する場合は
+下記のようになります。
 
 `
-# ex) Asia/Tokyoにタイムゾーンを設定する場合
 $ sudo timedatectl set-timezone Asia/Tokyo
 `
 
