@@ -1,4 +1,4 @@
-# vagrant-inside_docker-compose_code
+# vagrant-inside_docker-compose
 vagrantの中にデスクトップubuntu+dokcer-composeが入っています。簡単に作成、捨てられる開発環境としてどうぞ。
 ## 使い方
 前提としてvirtualbox,vagrantはインストール済みとします。
