@@ -66,10 +66,16 @@ $ sudo timedatectl set-timezone Asia/Tokyo
 下記のコマンドにより変更することができます。
 
 `
-
+$ wget -q https://www.ubuntulinux.jp/ubuntu-ja-archive-keyring.gpg -O- | sudo apt-key add -
+$ wget -q https://www.ubuntulinux.jp/ubuntu-jp-ppa-keyring.gpg -O- | sudo apt-key add -
+$ sudo wget https://www.ubuntulinux.jp/sources.list.d/xenial.list -O /etc/apt/sources.list.d/ubuntu-ja.list
+$ sudo apt update && sudo apt -y upgrade
+$ sudo apt-get install ubuntu-defaults-ja
 `
 
+これを行った後に再起動を行うと、システムが日本語になります。
 ## Referrence
 
 [docker-composeのvagrant](https://app.vagrantup.com/gusztavvargadr/boxes/docker-linux)
 
+[UbuntuJapaneseチームによる日本語化の方法](https://www.ubuntulinux.jp/japanese)
