@@ -114,6 +114,8 @@ language Supportを選択します。
 
 [docker-composeのvagrant](https://app.vagrantup.com/gusztavvargadr/boxes/docker-linux)
 
+[コードからvisual studiocodeをインストールする方法](https://code.visualstudio.com/docs/setup/linux)
+
 [UbuntuJapaneseチームによる日本語化の方法](https://www.ubuntulinux.jp/japanese)
 
 [Ubuntu で日本語キーボードレイアウト](https://qiita.com/vochicong/items/6452ac54bde56b0e0bb3)
