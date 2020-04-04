@@ -116,6 +116,8 @@ language Supportを選択します。
 
 [コードからvisual studiocodeをインストールする方法](https://code.visualstudio.com/docs/setup/linux)
 
+[コードからchromeをインストールする方法](https://www.karelie.net/how-to-install-google-chrome-on-ubuntu/)
+
 [UbuntuJapaneseチームによる日本語化の方法](https://www.ubuntulinux.jp/japanese)
 
 [Ubuntu で日本語キーボードレイアウト](https://qiita.com/vochicong/items/6452ac54bde56b0e0bb3)
