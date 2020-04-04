@@ -71,6 +71,17 @@ Vagrant.configure("2") do |config|
     # Linuxbrew
     # apt-get install build-essential curl file git
 
+    # visual studio code
+    # curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+    # install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+    # sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+    # apt-get -y install apt-transport-https && apt-get update && apt-get -y install code
+
+    # google chrome
+    # sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+    # wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+    # apt-get update && apt-get -y install google-chrome-stable
+
     # ゴミ処理
     apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/*
     # デスクトップ環境反映のため、サーバーを一度シャットダウン
