@@ -62,6 +62,30 @@ Gnomeセッション開始時に
 setxkbmap jp
 が実行されるように設定。
 
+#### ibusの入力メソッドの表示
+画面右上に表示されていない場合は、画面右上の歯車マーク→システム設定→テキスト入力から
+メニューバーに現在の入力メソッドを表示にチェックを入れる。
+#### 日本語入力
+
+入力メソッドにmozcを追加
+
+```
+$ sudo apt install -y ibus-mozc 
+```
+
+画面右上に入力メソッドが表示されるように
+「メニューバーに現在の入力メソッドを表示」にチェックを入れる。
+
+画面右上の歯車マーク→システム設定→テキスト入力から
+使用する入力ソースの左下の➕アイコンをクリック
+
+入力メソッドに
+日本語(Mozc)(IBus)
+を追加。
+
+日本語(Mozc)(IBus)以外に入力メソッドは
+削除しておく。
+
 ### タイムゾーンの設定
 デフォルトではUTCに設定されています。
 Asia/Tokyoにタイムゾーンを設定する場合は
@@ -96,3 +120,5 @@ language Supportを選択します。
 [UbuntuJapaneseチームによる日本語化の方法](https://www.ubuntulinux.jp/japanese)
 
 [Ubuntu で日本語キーボードレイアウト](https://qiita.com/vochicong/items/6452ac54bde56b0e0bb3)
+
+[iBus + Mozcで日本語入力する](https://www.hiroom2.com/2018/04/29/ubuntu-1804-ibus-mozc-ja/)
