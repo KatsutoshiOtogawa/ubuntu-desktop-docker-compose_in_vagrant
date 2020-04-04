@@ -52,6 +52,16 @@ Apple Alminium (JIS)
 $ sudo dpkg-reconfigure keyboard-configuration
 ```
 
+下記のコマンドを実行してGUI画面でも適用されるようにする。
+
+```
+$ gnome-session-properties
+```
+
+Gnomeセッション開始時に
+setxkbmap jp
+が実行されるように設定。
+
 ### タイムゾーンの設定
 デフォルトではUTCに設定されています。
 Asia/Tokyoにタイムゾーンを設定する場合は
@@ -84,3 +94,5 @@ language Supportを選択します。
 [docker-composeのvagrant](https://app.vagrantup.com/gusztavvargadr/boxes/docker-linux)
 
 [UbuntuJapaneseチームによる日本語化の方法](https://www.ubuntulinux.jp/japanese)
+
+[Ubuntu で日本語キーボードレイアウト](https://qiita.com/vochicong/items/6452ac54bde56b0e0bb3)
