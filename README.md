@@ -67,13 +67,18 @@ $ sudo timedatectl set-timezone Asia/Tokyo
 
 ```
 $ wget -q https://www.ubuntulinux.jp/ubuntu-ja-archive-keyring.gpg -O- | sudo apt-key add -
-$ wget -q https://www.ubuntulinux.jp/ubuntu-jp-ppa-keyring.gpg -O- | sudo apt-key add -  
-$ sudo wget https://www.ubuntulinux.jp/sources.list.d/xenial.list -O /etc/apt/sources.list.d/ubuntu-ja.list  
-$ sudo apt update && sudo apt -y upgrade  
-$ sudo apt-get install ubuntu-defaults-ja  
+$ wget -q https://www.ubuntulinux.jp/ubuntu-jp-ppa-keyring.gpg -O- | sudo apt-key add -
+$ sudo wget https://www.ubuntulinux.jp/sources.list.d/xenial.list -O /etc/apt/sources.list.d/ubuntu-ja.list
+$ sudo apt update && sudo apt -y upgrade
+$ sudo apt-get install ubuntu-defaults-ja
 ```
 
-これを行った後に再起動を行うと、システムが日本語になります。
+次にデスクトップ上の歯車からSystem Settingsを選択し、
+language Supportを選択します。
+メニューとWindowの言語から日本語の優先度が一番高くなるように
+一番上に項目をドラッグします。
+システム全体に適用して画面を閉じます。
+これを行った後にログインし直すと、システムが日本語になります。
 ## Referrence
 
 [docker-composeのvagrant](https://app.vagrantup.com/gusztavvargadr/boxes/docker-linux)
